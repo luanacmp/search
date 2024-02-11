@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/advanced.css">
+    </head>
+    <body>
+        <div class="advanced-navbar">
+            <div>
+                <a href="index.html">
+                    <img class="google-icon" src="images/google.png" alt="">
+                </a>
+            </div>
+            <ul class="navbar">
+                <li class="navbar-li">
+                    <a class="navbar-link" href="index.html">Google</a>
+                </li>
+                <li class="navbar-li">
+                    <a class="navbar-link" href="image.html">Images</a>
+                </li>
+                <li class="navbar-li">
+                    <a class="navbar-signin" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Sign in</a>
+                </li>
+            </ul>
+        </div>
+        <div class="advanced-headline">
+            <p class="advanced-text"> Advanced Search</p>
+        </div>
+        <div class="separator"></div>
+        <div class="advanced-container">
+            <p>Find pages with...</p>
+            <div class="advanced-form">
+                <form action="https://www.google.com/search">
+                    <div class="form-row">
+                        <div class="form-col-2">
+                            <p class="form-label">All these words:</p>
+                        </div>
+                        <div class="form-col-6">
+                            <label>
+                                <input autocomplete="off" type="text" name="as_q" class="form-control">
+                            </label>
+                        </div>
+                        <div class="form-col-4">
+                            <p class="form-info">Type the important words: <code>tri-colour rat terrier</code></p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col-2">
+                            <p class="form-label">This exact word or phrase:</p>
+                        </div>
+                        <div class="form-col-6">
+                            <label>
+                                <input autocomplete="off" type="text" name="as_epq" class="form-control">
+                            </label>
+                        </div>
+                        <div class="form-col-4">
+                            <p class="form-info">Put exact words in quotes: <code>"rat terrier"</code></p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col-2">
+                            <p class="form-label">Any of these words:</p>
+                        </div>
+                        <div class="form-col-6">
+                            <label>
+                                <input autocomplete="off" type="text" name="as_oq" class="form-control">
+                            </label>
+                        </div>
+                        <div class="form-col-4">
+                            <p class="form-info">Type OR between all the words you want: <code>miniature OR standard</code></p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col-2">
+                            <p class="form-label">None of these words:</p>
+                        </div>
+                        <div class="form-col-6">
+                            <label>
+                                <input autocomplete="off" type="text" name="as_eq" class="form-control">
+                            </label>
+                        </div>
+                        <div class="form-col-4">
+                            <p class="form-info">Put a minus sign just before words that you don't want: <code>-rodent, -"Jack Russell"</code></p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-col-2"></div>
+                        <div class="form-col-6 advanced-search">
+                            <input type="submit" value="Advanced Search" class="advanced-search-button">
+                        </div>
+                        <div class="form-col-4"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
